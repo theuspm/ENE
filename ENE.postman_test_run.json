@@ -1,0 +1,168 @@
+{
+	"id": "b06d11bd-e85e-4d8c-a7dd-15c5165d991b",
+	"name": "ENE",
+	"timestamp": "2024-09-30T17:11:07.500Z",
+	"collection_id": "8868595-76c20fa3-0cc5-4c34-a30e-283a5efa43f2",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 4,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-09-30T17:11:06.249Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "34667da2-5b31-4d42-a276-6997bd9a6b7c",
+			"name": "Listar todos os usuários",
+			"url": "https://jsonplaceholder.typicode.com/users",
+			"time": 18,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				18
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "885aa995-e517-495f-958b-c5c32fb4c03a",
+			"name": "Listar usuário por id",
+			"url": "https://jsonplaceholder.typicode.com/users/1",
+			"time": 26,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				26
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "e4484869-e09e-4fa2-ac55-cd51e26b1df4",
+			"name": "Criar novo usuário",
+			"url": "https://jsonplaceholder.typicode.com/users",
+			"time": 119,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				119
+			],
+			"allTests": [
+				{
+					"Successful POST request": true
+				}
+			]
+		},
+		{
+			"id": "5df01e36-148d-4f0a-b367-1552f96acd2a",
+			"name": "Editar usuário",
+			"url": "https://jsonplaceholder.typicode.com/users/1",
+			"time": 379,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful PUT request": true
+			},
+			"testPassFailCounts": {
+				"Successful PUT request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				379
+			],
+			"allTests": [
+				{
+					"Successful PUT request": true
+				}
+			]
+		},
+		{
+			"id": "8d65968e-8a07-4cf3-920a-d7f1756f33bb",
+			"name": "Deletar um usuário",
+			"url": "https://jsonplaceholder.typicode.com/users/2",
+			"time": 120,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Usuário deletado com sucesso": true
+			},
+			"testPassFailCounts": {
+				"Usuário deletado com sucesso": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				120
+			],
+			"allTests": [
+				{
+					"Usuário deletado com sucesso": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 662,
+	"collection": {
+		"requests": [
+			{
+				"id": "34667da2-5b31-4d42-a276-6997bd9a6b7c",
+				"method": "GET"
+			},
+			{
+				"id": "885aa995-e517-495f-958b-c5c32fb4c03a",
+				"method": "GET"
+			},
+			{
+				"id": "e4484869-e09e-4fa2-ac55-cd51e26b1df4",
+				"method": "POST"
+			},
+			{
+				"id": "5df01e36-148d-4f0a-b367-1552f96acd2a",
+				"method": "PUT"
+			},
+			{
+				"id": "8d65968e-8a07-4cf3-920a-d7f1756f33bb",
+				"method": "DELETE"
+			}
+		]
+	}
+}
